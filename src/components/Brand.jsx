@@ -4,7 +4,4 @@ function Brand() {
       <span className="brand-mark">R</span>
       <span>React Starter</span>
     </a>
-  )
-}
-
-export default Brand
+  )t Brand
