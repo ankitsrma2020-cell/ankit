@@ -4,4 +4,8 @@ function FeatureCard({ number, title, description }) {
       <span className="feature-number">{number}</span>
       <h2>{title}</h2>
       <p>{description}</p>
-    </a
+    </article>
+  )
+}
+
+export default FeatureCard

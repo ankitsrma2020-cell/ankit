@@ -3,7 +3,15 @@ import Brand from './components/Brand.jsx'
 import FeatureCard from './components/FeatureCard.jsx'
 import HeroArt from './components/HeroArt.jsx'
 import { features } from './data/features.js'
-  <a className="nav-link" href="https://react.dev" target="_blank" rel="noreferrer">
+
+function App() {
+  const [started, setStarted] = useState(false)
+
+  return (
+    <main className="page-shell">
+      <nav className="nav-bar" aria-label="Main navigation">
+        <Brand />
+        <a className="nav-link" href="https://react.dev" target="_blank" rel="noreferrer">
           Learn React <span aria-hidden="true">↗</span>
         </a>
       </nav>
