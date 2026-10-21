@@ -8,7 +8,10 @@
   text-rendering: optimizeLegibility;
 }
 
-*
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
 
 .page-shell { max-width: 1180px; min-height: 100vh; margin: 0 auto; padding: 0 54px; }
 .nav-bar { height: 94px; display: flex; align-items: center; justify-content: space-between; }
